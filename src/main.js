@@ -1,9 +1,9 @@
-import maplibregl from 'maplibre-gl';
-import 'maplibre-gl/dist/maplibre-gl.css';
+import { initMap } from './map/mapManager.js'
+import { loadPoliticalMapLayer } from './map/layers/political.js'
 
-const map = new maplibregl.Map({
-  container: 'map',
-  style: "/map_styles/base.json",
-  center: [0, 0],
-  zoom: 2
-});
+const map = initMap()
+
+// wait for map to fully load before adding layers 
+map.on('load', () => {
+  loadPoliticalMapLayer(map)
+})
