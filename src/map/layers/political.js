@@ -1,207 +1,41 @@
 export function loadPoliticalMapLayer(map) {
-    fetch('/data/political.geojson')
-        .then(res => res.json())
-        .then(data => {
-            map.addSource('political', {
-                type: 'geojson',
-                data
-            })
-
-            map.addLayer({
-                id: 'country-colors',
-                type: 'fill',
-                source: 'political',
-                paint: {
-                    'fill-color': [
-                        'match',
-                        ['get', 'name'],
-                        'Afghanistan', '#40a0a7',
-                        "Albania", "#952d66",
-                        "Algeria", "#9163b4",
-                        "Andorra", "#ff5a00",
-                        "Angola", "#71fa32",
-                        "Argentina", "#919dec",
-                        "Armenia", "#891f71",
-                        "Australia", "#398f61",
-                        "Austria", "#e0e4ff",
-                        "Azerbaijan", "#7c9450",
-                        "Bahamas", "#40a0a7",
-                        "Bahrain", "#475139",
-                        "Bangladesh", "#0000f3",
-                        "Barbados", "#2511a5",
-                        "Belarus", "#74500a",
-                        "Belgium", "#c1ab08",
-                        "Belize", "#9a6617",
-                        "Benin", "#82960a",
-                        "Bhutan", "#9882bf",
-                        "Bolivia", "#ffb488",
-                        "Botswana", "#b76232",
-                        "Brazil", "#4c913f",
-                        "Brunei", "#aaaa32",
-                        "Bulgaria", "#427145",
-                        "Burkina Faso", "#c80f64",
-                        "Burundi", "#1722d4",
-                        "Cambodia", "#6caa0a",
-                        "Cameroon", "#8c3a26",
-                        "Canada", "#773027",
-                        "Chad", "#62358a",
-                        "Chile", "#9b656b",
-                        "China", "#fff4be",
-                        "Colombia", "#debb5b",
-                        "Comoros", "#8c6ebe",
-                        "Congo", "#1e7896",
-                        "Costa Rica", "#9882bf",
-                        "Croatia", "#f54646",
-                        "Cuba", "#9882bf",
-                        "Cyprus", "#b712dc",
-                        "Denmark", "#99745d",
-                        "Djibouti", "#1c2b76",
-                        "Dominica", "#777a69",
-                        "Ecuador", "#f99262",
-                        "Egypt", "#e6e646",
-                        "El Salvador", "#9882bf",
-                        "Eritrea", "#1c8f8a",
-                        "Estonia", "#4c9dc3",
-                        "Ethiopia", "#9882bf",
-                        "Fiji", "#5aaad2",
-                        "Finland", "#cdd4e4",
-                        "France", "#5071f0",
-                        "Gabon", "#1e320a",
-                        "Gambia", "#14be64",
-                        "Georgia", "#c16b3d",
-                        "Germany", "#4c6179",
-                        "Ghana", "#0b55da",
-                        "Greece", "#5db5e3",
-                        "Greenland", "#8c705d",
-                        "Grenada", "#915c12",
-                        "Guatemala", "#9882bf",
-                        "Guinea", "#c8590a",
-                        "Guyana", "#6e1a30",
-                        "Haiti", "#9882bf",
-                        "Honduras", "#9882bf",
-                        "Hong Kong", "#36a79c",
-                        "Hungary", "#f97e62",
-                        "Iceland", "#647daf",
-                        'India', '#C49228',
-                        "Indonesia", "#e6aaa0",
-                        "Iraq", "#b27263",
-                        "Ireland", "#509f5a",
-                        "Israel", "#5477a8",
-                        "Italy", "#437f3f",
-                        "Jamaica", "#16873d",
-                        "Japan", "#ffbfbf",
-                        "Jordan", "#efefb6",
-                        "Kazakhstan", "#1709f3",
-                        "Kenya", "#948f4e",
-                        "Kiribati", "#d48cbf",
-                        "Kosovo", "#3974d3",
-                        "Kuwait", "#fb612a",
-                        "Kyrgyzstan", "#7b092b",
-                        "Laos", "#44aa5a",
-                        "Latvia", "#705a57",
-                        "Lebanon", "#82963c",
-                        "Lesotho", "#536232",
-                        "Liberia", "#9882bf",
-                        "Libya", "#c8b45a",
-                        "Liechtenstein", "#210ec4",
-                        "Lithuania", "#dbdb77",
-                        "Luxembourg", "#41afb3",
-                        "Madagascar", "#f06e5a",
-                        "Malawi", "#df40d4",
-                        "Malaysia", "#a8aa00",
-                        "Maldives", "#a8aa5a",
-                        "Mali", "#9a78b3",
-                        "Malta", "#12b2c8",
-                        "Mauritania", "#38e14f",
-                        "Mauritius", "#286e5a",
-                        "Mexico", "#689853",
-                        "Moldova", "#f0ff70",
-                        "Monaco", "#962c03",
-                        "Mongolia", "#a1be66",
-                        "Montenegro", "#fa515a",
-                        "Morocco", "#4bb7e4",
-                        "Mozambique", "#7ba4d4",
-                        "Namibia", "#b78afa",
-                        "Nauru", "#403515",
-                        "Nepal", "#c40020",
-                        "New Zealand", "#9882bf",
-                        "Nicaragua", "#9882bf",
-                        "Niger", "#0e9e08",
-                        "Nigeria", "#e15505",
-                        "North Korea", "#28015a",
-                        "Norway", "#6f4747",
-                        "Oman", "#a6bfa7",
-                        "Pakistan", "#1777f3",
-                        "Palau", "#7b5714",
-                        "Palestine", "#aa7d50",
-                        "Panama", "#9882bf",
-                        "Papua New Guinea", "#015714",
-                        "Paraguay", "#3971e4",
-                        "Peru", "#c4bdcc",
-                        "Philippines", "#9882bf",
-                        "Poland", "#c55c6a",
-                        "Portugal", "#277446",
-                        "Puerto Rico", "#3a5eab",
-                        "Qatar", "#71684c",
-                        "Romania", "#ebd85c",
-                        "Russia", "#7d0d18",
-                        "Rwanda", "#17220c",
-                        "Samoa", "#cb6d14",
-                        "San Marino", "#5eb6e4",
-                        "Saudi Arabia", "#abbe98",
-                        "Senegal", "#36beb3",
-                        "Serbia", "#5a506e",
-                        "Seychelles", "#446e99",
-                        "Sierra Leone", "#7c1258",
-                        "Singapore", "#1211c8",
-                        "Slovakia", "#36a79c",
-                        "Slovenia", "#68d6ff",
-                        "Somalia", "#3a5d76",
-                        "Somaliland", "#280a5a",
-                        "South Africa", "#9882bf",
-                        "Spain", "#f2cd5e",
-                        "Sri Lanka", "#f0645a",
-                        "Sudan", "#ee998a",
-                        "Suriname", "#2c4280",
-                        "Sweden", "#2484f7",
-                        "Switzerland", "#210e13",
-                        "Syria", "#646496",
-                        "Taiwan", "#528e0f",
-                        "Tajikistan", "#53018f",
-                        "Tanzania", "#f831b2",
-                        "Togo", "#860fb0",
-                        "Tonga", "#9882bf",
-                        "Tunisia", "#a9197b",
-                        "Turkey", "#abbe98",
-                        "Turkmenistan", "#8f830d",
-                        "Tuvalu", "#166d57",
-                        "Uganda", "#302b11",
-                        "Ukraine", "#005ab9",
-                        "United Arab Emirates", "#d28371",
-                        "United Kingdom", "#c9385d",
-                        'United States of America', '#457CA8',
-                        "Uruguay", "#abbe98",
-                        "Uzbekistan", "#2b838f",
-                        "Vanuatu", "#aa8fc0",
-                        "Venezuela", "#ce1126",
-                        "Vietnam", "#6c4664",
-                        "Yemen", "#9b656b",
-                        "Zambia", "#5326fa",
-                        "Zimbabwe", "#00d25a",
-                        '#000000'
-                    ],
-                    'fill-opacity': 0.4
-                }
-            })
-
-            map.addLayer({
-                id: 'country-borders',
-                type: 'line',
-                source: 'political',
-                paint: {
-                    'line-color': '#000000',
-                    'line-width': 2
-                }
-            })
+    Promise.all([
+        fetch('/data/political.geojson').then(res => res.json()),
+        fetch('/data/countries.json').then(res => res.json())
+    ]).then(([geoData, countryMeta]) => {
+        map.addSource('political', {
+            type: 'geojson',
+            data: geoData
         })
+        
+        // match for country.json colors
+        const matchExpr = ['match', ['get', 'name']]
+        for (const [country, data] of Object.entries(countryMeta)) {
+            matchExpr.push(country, data.color)
+        }
+        // add the default color
+        matchExpr.push('#000000')
+    
+        // add country colors
+        map.addLayer({
+            id: 'country-colors',
+            type: 'fill',
+            source: 'political',
+            paint: {
+                'fill-color': matchExpr,
+                'fill-opacity': 1.0
+            }
+        })
+    
+        map.addLayer({
+            id: 'country-borders',
+            type: 'line',
+            source: 'political',
+            paint: {
+                'line-color': '#000000',
+                'line-width': 2
+            }
+        })
+    })
+
 }
