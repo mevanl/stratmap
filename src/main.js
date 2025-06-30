@@ -26,6 +26,6 @@ document.getElementById('button_toggle_country_colors').addEventListener('click'
   map.setLayoutProperty('country-colors', 'visibility', visibility)
   colorsVisible = !colorsVisible
 
-  document.getElementById('button_toggle_country_borders').innerText =
+  document.getElementById('button_toggle_country_colors').innerText =
     colorsVisible ? 'Hide Colors' : 'Show Colors'
 })
