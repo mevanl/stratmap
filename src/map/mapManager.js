@@ -9,10 +9,16 @@ let map;
 // initMap returns the base map, containerID is 
 // the div it will look for
 export function initMap(containerId = 'map'){
-    return map = new maplibregl.Map({
+    map = new maplibregl.Map({
         container: containerId,
         style: mapStyle,
         center: [0, 0],
         zoom: 2
     })
+
+    return map 
+}
+
+export function getMap() {
+  return map;
 }

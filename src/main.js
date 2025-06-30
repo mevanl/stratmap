@@ -14,9 +14,10 @@ map.on('load', () => {
 
 document.getElementById('button_toggle_country_borders').addEventListener('click', () => {
   const visibility = bordersVisible ? 'none' : 'visible'
-  map.setLayoutProperty('political-border-line', 'visibility', visibility)
+  map.setLayoutProperty('country-borders', 'visibility', visibility)
   bordersVisible = !bordersVisible
 
   document.getElementById('button_toggle_country_borders').innerText =
     bordersVisible ? 'Hide Borders' : 'Show Borders'
 })
+
