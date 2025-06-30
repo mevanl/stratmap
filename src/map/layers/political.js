@@ -7,7 +7,7 @@ export function loadPoliticalMapLayer(map) {
             type: 'geojson',
             data: geoData
         })
-        
+
         // match for country.json colors
         const matchExpr = ['match', ['get', 'name']]
         for (const [country, data] of Object.entries(countryMeta)) {
@@ -15,7 +15,7 @@ export function loadPoliticalMapLayer(map) {
         }
         // add the default color
         matchExpr.push('#000000')
-    
+
         // add country colors
         map.addLayer({
             id: 'country-colors',
@@ -23,10 +23,10 @@ export function loadPoliticalMapLayer(map) {
             source: 'political',
             paint: {
                 'fill-color': matchExpr,
-                'fill-opacity': 1.0
+                'fill-opacity': 1
             }
         })
-    
+
         map.addLayer({
             id: 'country-borders',
             type: 'line',
@@ -36,6 +36,14 @@ export function loadPoliticalMapLayer(map) {
                 'line-width': 2
             }
         })
+
+        // check for future me 
+        // const countriesWithDefaultColor = geoData.features
+        //     .map(f => f.properties.name)
+        //     .filter(name => !countryMeta.hasOwnProperty(name))
+
+        // console.log('Countries using default color:', countriesWithDefaultColor)
+
     })
 
 }

@@ -1,5 +1,782 @@
 {
+    "Afghanistan": {
+        "color": "#40a0a7"
+    },
+    "Akrotiri": {
+        "color": "#a47251"
+    },
+    "Albania": {
+        "color": "#952d66"
+    },
+    "Algeria": {
+        "color": "#9163b4"
+    },
+    "American Samoa": {
+        "color": "#2b69c2"
+    },
+    "Andorra": {
+        "color": "#ff5a00"
+    },
+    "Angola": {
+        "color": "#71fa32"
+    },
+    "Anguilla": {
+        "color": "#ce8f25"
+    },
+    "Antarctica": {
+        "color": "#ffffff"
+    },
+    "Antigua and Barb.": {
+        "color": "#b53d6f"
+    },
+    "Argentina": {
+        "color": "#919dec"
+    },
+    "Armenia": {
+        "color": "#891f71"
+    },
+    "Aruba": {
+        "color": "#7ccbdc"
+    },
+    "Ashmore and Cartier Is.": {
+        "color": "#6f83a2"
+    },
+    "Australia": {
+        "color": "#398f61"
+    },
+    "Austria": {
+        "color": "#e0e4ff"
+    },
+    "Azerbaijan": {
+        "color": "#7c9450"
+    },
+    "Baikonur": {
+        "color": "#b073ce"
+    },
+    "Bahamas": {
+        "color": "#40a0a7"
+    },
+    "Bahrain": {
+        "color": "#475139"
+    },
+    "Bajo Nuevo Bank": {
+        "color": "#818b22"
+    },
+    "Bangladesh": {
+        "color": "#0000f3"
+    },
+    "Barbados": {
+        "color": "#2511a5"
+    },
+    "Belarus": {
+        "color": "#74500a"
+    },
+    "Belgium": {
+        "color": "#c1ab08"
+    },
+    "Belize": {
+        "color": "#9a6617"
+    },
+    "Benin": {
+        "color": "#82960a"
+    },
+    "Bermuda": {
+        "color": "#c26d4e"
+    },
+    "Bhutan": {
+        "color": "#9882bf"
+    },
+    "Bir Tawil": {
+        "color": "#6d4c41"
+    },
+    "Bolivia": {
+        "color": "#ffb488"
+    },
+    "Bosnia and Herz.": {
+        "color": "#c3ff70"
+    },
+    "Botswana": {
+        "color": "#b76232"
+    },
+    "Brazil": {
+        "color": "#4c913f"
+    },
+    "Brazilian I.": {
+        "color": "#0d572d"
+    },
+    "Br. Indian Ocean Ter.": {
+        "color": "#265a4f"
+    },
+    "Brunei": {
+        "color": "#aaaa32"
+    },
+    "British Virgin Is.": {
+        "color": "#f2b04c"
+    },
+    "Bulgaria": {
+        "color": "#427145"
+    },
+    "Burkina Faso": {
+        "color": "#c80f64"
+    },
+    "Burundi": {
+        "color": "#1722d4"
+    },
+    "Cabo Verde": {
+        "color": "#7d91f3"
+    },
+    "Cambodia": {
+        "color": "#6caa0a"
+    },
+    "Cameroon": {
+        "color": "#8c3a26"
+    },
+    "Canada": {
+        "color": "#773027"
+    },
+    "Cayman Is.": {
+        "color": "#d05a2a"
+    },
+    "Central African Rep.": {
+        "color": "#9d3793"
+    },
+    "Chad": {
+        "color": "#62358a"
+    },
+    "Chile": {
+        "color": "#9b656b"
+    },
+    "China": {
+        "color": "#fff4be"
+    },
+    "Clipperton I.": {
+        "color": "#8793a7"
+    },
+    "Colombia": {
+        "color": "#debb5b"
+    },
+    "Comoros": {
+        "color": "#8c6ebe"
+    },
+    "Congo": {
+        "color": "#1e7896"
+    },
+    "Cook Is.": {
+        "color": "#f28446"
+    },
+    "Coral Sea Is.": {
+        "color": "#c78bde"
+    },
+    "Costa Rica": {
+        "color": "#9882bf"
+    },
+    "Côte d'Ivoire": {
+        "color": "#f4a259"
+    },
+    "Croatia": {
+        "color": "#f54646"
+    },
+    "Cuba": {
+        "color": "#9882bf"
+    },
+    "Curaçao": {
+        "color": "#3a7fa9"
+    },
+    "Cyprus": {
+        "color": "#b712dc"
+    },
+    "Cyprus U.N. Buffer Zone": {
+        "color": "#89c3c0"
+    },
+    "Czechia": {
+        "color": "#aabefa"
+    },
+    "Dem. Rep. Congo": {
+        "color": "#005a94"
+    },
+    "Denmark": {
+        "color": "#99745d"
+    },
+    "Dhekelia": {
+        "color": "#76644a"
+    },
+    "Djibouti": {
+        "color": "#1c2b76"
+    },
+    "Dominica": {
+        "color": "#777a69"
+    },
+    "Dominican Rep.": {
+        "color": "#284a9e"
+    },
+    "Ecuador": {
+        "color": "#f99262"
+    },
+    "Egypt": {
+        "color": "#e6e646"
+    },
+    "El Salvador": {
+        "color": "#9882bf"
+    },
+    "Eq. Guinea": {
+        "color": "#52a355"
+    },
+    "Eritrea": {
+        "color": "#1c8f8a"
+    },
+    "Estonia": {
+        "color": "#4c9dc3"
+    },
+    "eSwatini": {
+        "color": "#8245b2"
+    },
+    "Ethiopia": {
+        "color": "#9882bf"
+    },
+    "Faeroe Is.": {
+        "color": "#d8c686"
+    },
+    "Falkland Is.": {
+        "color": "#5885bf"
+    },
+    "Fiji": {
+        "color": "#5aaad2"
+    },
+    "Finland": {
+        "color": "#cdd4e4"
+    },
+    "France": {
+        "color": "#5071f0"
+    },
+    "Fr. Polynesia": {
+        "color": "#f77f7f"
+    },
+    "Fr. S. Antarctic Lands": {
+        "color": "#6e90a6"
+    },
+    "Gabon": {
+        "color": "#1e320a"
+    },
+    "Gambia": {
+        "color": "#14be64"
+    },
+    "Georgia": {
+        "color": "#c16b3d"
+    },
+    "Germany": {
+        "color": "#4c6179"
+    },
+    "Ghana": {
+        "color": "#0b55da"
+    },
+    "Gibraltar": {
+        "color": "#e64957"
+    },
+    "Greece": {
+        "color": "#5db5e3"
+    },
+    "Greenland": {
+        "color": "#8c705d"
+    },
+    "Grenada": {
+        "color": "#915c12"
+    },
+    "Guam": {
+        "color": "#5a86f2"
+    },
+    "Guatemala": {
+        "color": "#9882bf"
+    },
+    "Guernsey": {
+        "color": "#ffc857"
+    },
+    "Guinea": {
+        "color": "#c8590a"
+    },
+    "Guinea-Bissau": {
+        "color": "#b09b4d"
+    },
+    "Guyana": {
+        "color": "#6e1a30"
+    },
+    "Haiti": {
+        "color": "#9882bf"
+    },
+    "Heard I. and McDonald Is.": {
+        "color": "#727274"
+    },
+    "Honduras": {
+        "color": "#9882bf"
+    },
+    "Hong Kong": {
+        "color": "#36a79c"
+    },
+    "Hungary": {
+        "color": "#f97e62"
+    },
+    "Iceland": {
+        "color": "#647daf"
+    },
+    "India": {
+        "color": "#C49228"
+    },
+    "Indian Ocean Ter.": {
+        "color": "#59716d"
+    },
+    "Indonesia": {
+        "color": "#e6aaa0"
+    },
+    "Iran": {
+        "color": "#c74d3b"
+    },
+    "Iraq": {
+        "color": "#b27263"
+    },
+    "Ireland": {
+        "color": "#509f5a"
+    },
+    "Isle of Man": {
+        "color": "#c4291a"
+    },
+    "Israel": {
+        "color": "#5477a8"
+    },
+    "Italy": {
+        "color": "#437f3f"
+    },
+    "Jamaica": {
+        "color": "#16873d"
+    },
+    "Japan": {
+        "color": "#ffbfbf"
+    },
+    "Jersey": {
+        "color": "#d297ae"
+    },
+    "Jordan": {
+        "color": "#efefb6"
+    },
+    "Kazakhstan": {
+        "color": "#1709f3"
+    },
+    "Kenya": {
+        "color": "#948f4e"
+    },
+    "Kiribati": {
+        "color": "#d48cbf"
+    },
+    "Kosovo": {
+        "color": "#3974d3"
+    },
+    "Kuwait": {
+        "color": "#fb612a"
+    },
+    "Kyrgyzstan": {
+        "color": "#7b092b"
+    },
+    "Laos": {
+        "color": "#44aa5a"
+    },
+    "Latvia": {
+        "color": "#705a57"
+    },
+    "Lebanon": {
+        "color": "#82963c"
+    },
+    "Lesotho": {
+        "color": "#536232"
+    },
+    "Liberia": {
+        "color": "#9882bf"
+    },
+    "Libya": {
+        "color": "#c8b45a"
+    },
+    "Liechtenstein": {
+        "color": "#210ec4"
+    },
+    "Lithuania": {
+        "color": "#dbdb77"
+    },
+    "Luxembourg": {
+        "color": "#41afb3"
+    },
+    "Macao": {
+        "color": "#2f6e5c"
+    },
+    "Madagascar": {
+        "color": "#f06e5a"
+    },
+    "Malawi": {
+        "color": "#df40d4"
+    },
+    "Malaysia": {
+        "color": "#a8aa00"
+    },
+    "Maldives": {
+        "color": "#a8aa5a"
+    },
+    "Mali": {
+        "color": "#9a78b3"
+    },
+    "Malta": {
+        "color": "#12b2c8"
+    },
+    "Marshall Is.": {
+        "color": "#0b426b"
+    },
+    "Mauritania": {
+        "color": "#38e14f"
+    },
+    "Mauritius": {
+        "color": "#286e5a"
+    },
+    "Mexico": {
+        "color": "#689853"
+    },
+    "Micronesia": {
+        "color": "#75cce2"
+    },
+    "Moldova": {
+        "color": "#f0ff70"
+    },
+    "Monaco": {
+        "color": "#962c03"
+    },
+    "Mongolia": {
+        "color": "#a1be66"
+    },
+    "Montenegro": {
+        "color": "#fa515a"
+    },
+    "Montserrat": {
+        "color": "#6c3b59"
+    },
+    "Morocco": {
+        "color": "#4bb7e4"
+    },
+    "Mozambique": {
+        "color": "#7ba4d4"
+    },
+    "Myanmar": {
+        "color": "#e6900e"
+    },
+    "N. Cyprus": {
+        "color": "#c5d4e4"
+    },
+    "N. Mariana Is.": {
+        "color": "#4e7c84"
+    },
+    "Namibia": {
+        "color": "#b78afa"
+    },
+    "Nauru": {
+        "color": "#403515"
+    },
+    "Nepal": {
+        "color": "#c40020"
+    },
+    "Netherlands": {
+        "color": "#cb8a4a"
+    },
+    "New Caledonia": {
+        "color": "#a5d353"
+    },
+    "New Zealand": {
+        "color": "#9882bf"
+    },
+    "Nicaragua": {
+        "color": "#9882bf"
+    },
+    "Niger": {
+        "color": "#0e9e08"
+    },
+    "Nigeria": {
+        "color": "#e15505"
+    },
+    "Niue": {
+        "color": "#d1e14f"
+    },
+    "Norfolk Island": {
+        "color": "#3a9068"
+    },
+    "North Korea": {
+        "color": "#28015a"
+    },
+    "North Macedonia": {
+        "color": "#f9e06d"
+    },
+    "Northern Cyprus": {
+        "color": "#be7b8b"
+    },
+    "Norway": {
+        "color": "#6f4747"
+    },
+    "Oman": {
+        "color": "#a6bfa7"
+    },
+    "Pakistan": {
+        "color": "#1777f3"
+    },
+    "Palau": {
+        "color": "#7b5714"
+    },
+    "Palestine": {
+        "color": "#aa7d50"
+    },
+    "Panama": {
+        "color": "#9882bf"
+    },
+    "Papua New Guinea": {
+        "color": "#015714"
+    },
+    "Paraguay": {
+        "color": "#3971e4"
+    },
+    "Peru": {
+        "color": "#c4bdcc"
+    },
+    "Philippines": {
+        "color": "#9882bf"
+    },
+    "Pitcairn Is.": {
+        "color": "#1e7152"
+    },
+    "Poland": {
+        "color": "#c55c6a"
+    },
+    "Portugal": {
+        "color": "#277446"
+    },
+    "Puerto Rico": {
+        "color": "#3a5eab"
+    },
+    "Qatar": {
+        "color": "#71684c"
+    },
+    "Romania": {
+        "color": "#ebd85c"
+    },
+    "Russia": {
+        "color": "#7d0d18"
+    },
+    "Rwanda": {
+        "color": "#17220c"
+    },
+    "S. Geo. and the Is.": {
+        "color": "#9ba5a5"
+    },
+    "S. Sudan": {
+        "color": "#f23232"
+    },
+    "Saint Helena": {
+        "color": "#4f5f7a"
+    },
+    "Saint Lucia": {
+        "color": "#60c4ff"
+    },
+    "Saint-Barthélemy": {
+        "color": "#d7bbd4"
+    },
+    "Samoa": {
+        "color": "#cb6d14"
+    },
+    "San Marino": {
+        "color": "#5eb6e4"
+    },
+    "São Tomé and Principe": {
+        "color": "#4ac16d"
+    },
+    "Saudi Arabia": {
+        "color": "#abbe98"
+    },
+    "Scarborough Reef": {
+        "color": "#a09288"
+    },
+    "Senegal": {
+        "color": "#36beb3"
+    },
+    "Serbia": {
+        "color": "#5a506e"
+    },
+    "Serranilla Bank": {
+        "color": "#96ac29"
+    },
+    "Seychelles": {
+        "color": "#446e99"
+    },
+    "Siachen Glacier": {
+        "color": "#a7c6cf"
+    },
+    "Sierra Leone": {
+        "color": "#7c1258"
+    },
+    "Singapore": {
+        "color": "#1211c8"
+    },
+    "Sint Maarten": {
+        "color": "#c986f1"
+    },
+    "Slovakia": {
+        "color": "#36a79c"
+    },
+    "Slovenia": {
+        "color": "#68d6ff"
+    },
+    "Solomon Is.": {
+        "color": "#598c2f"
+    },
+    "Somalia": {
+        "color": "#3a5d76"
+    },
+    "Somaliland": {
+        "color": "#280a5a"
+    },
+    "South Africa": {
+        "color": "#9882bf"
+    },
+    "South Korea": {
+        "color": "#ffffff"
+    },
+    "Southern Patagonian Ice Field": {
+        "color": "#a0b1ce"
+    },
+    "Spain": {
+        "color": "#f2cd5e"
+    },
+    "Spratly Is.": {
+        "color": "#99aa94"
+    },
+    "Sri Lanka": {
+        "color": "#f0645a"
+    },
+    "St. Kitts and Nevis": {
+        "color": "#f0aa2c"
+    },
+    "St. Pierre and Miquelon": {
+        "color": "#b1b9cb"
+    },
+    "St. Vin. and Gren.": {
+        "color": "#9c3c8b"
+    },
+    "St-Barthélemy": {
+        "color": "#e6a4c4"
+    },
+    "St-Martin": {
+        "color": "#f2a3c3"
+    },
+    "Sudan": {
+        "color": "#ee998a"
+    },
+    "Suriname": {
+        "color": "#2c4280"
+    },
+    "Sweden": {
+        "color": "#2484f7"
+    },
+    "Switzerland": {
+        "color": "#210e13"
+    },
+    "Syria": {
+        "color": "#646496"
+    },
+    "Taiwan": {
+        "color": "#528e0f"
+    },
+    "Tajikistan": {
+        "color": "#53018f"
+    },
+    "Tanzania": {
+        "color": "#f831b2"
+    },
+    "Thailand": {
+        "color": "#fd6f47"
+    },
+    "Timor-Leste": {
+        "color": "#ffcd64"
+    },
+    "Togo": {
+        "color": "#860fb0"
+    },
+    "Tonga": {
+        "color": "#9882bf"
+    },
+    "Trinidad and Tobago": {
+        "color": "#ea4252"
+    },
+    "Tunisia": {
+        "color": "#a9197b"
+    },
+    "Turkey": {
+        "color": "#abbe98"
+    },
+    "Turkmenistan": {
+        "color": "#8f830d"
+    },
+    "Turks and Caicos Is.": {
+        "color": "#82bcdb"
+    },
+    "Tuvalu": {
+        "color": "#166d57"
+    },
+    "U.S. Minor Outlying Is.": {
+        "color": "#4b607c"
+    },
+    "U.S. Virgin Is.": {
+        "color": "#e4c57c"
+    },
+    "Uganda": {
+        "color": "#302b11"
+    },
+    "Ukraine": {
+        "color": "#005ab9"
+    },
+    "United Arab Emirates": {
+        "color": "#d28371"
+    },
+    "United Kingdom": {
+        "color": "#c9385d"
+    },
     "United States of America": {
         "color": "#457CA8"
+    },
+    "Uruguay": {
+        "color": "#abbe98"
+    },
+    "USNB Guantanamo Bay": {
+        "color": "#7a5f3d"
+    },
+    "Uzbekistan": {
+        "color": "#2b838f"
+    },
+    "Vanuatu": {
+        "color": "#aa8fc0"
+    },
+    "Vatican": {
+        "color": "#ffff33"
+    },
+    "Venezuela": {
+        "color": "#ce1126"
+    },
+    "Vietnam": {
+        "color": "#6c4664"
+    },
+    "Wallis and Futuna Is.": {
+        "color": "#ba5b68"
+    },
+    "W. Sahara": {
+        "color": "#d6e29d"
+    },
+    "Yemen": {
+        "color": "#9b656b"
+    },
+    "Zambia": {
+        "color": "#5326fa"
+    },
+    "Zimbabwe": {
+        "color": "#00d25a"
+    },
+    "Åland": {
+        "color": "#a4b8e4"
     }
 }
