@@ -3,7 +3,7 @@ import { loadPoliticalMapLayer } from './map/layers/political.js'
 
 // default state
 let bordersVisible = true
-
+let colorsVisible = true
 
 const map = initMap()
 
@@ -21,3 +21,11 @@ document.getElementById('button_toggle_country_borders').addEventListener('click
     bordersVisible ? 'Hide Borders' : 'Show Borders'
 })
 
+document.getElementById('button_toggle_country_colors').addEventListener('click', () => {
+  const visibility = colorsVisible ? 'none' : 'visible'
+  map.setLayoutProperty('country-colors', 'visibility', visibility)
+  colorsVisible = !colorsVisible
+
+  document.getElementById('button_toggle_country_borders').innerText =
+    colorsVisible ? 'Hide Colors' : 'Show Colors'
+})

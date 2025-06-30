@@ -23,7 +23,7 @@ export function loadPoliticalMapLayer(map) {
             source: 'political',
             paint: {
                 'fill-color': matchExpr,
-                'fill-opacity': 1
+                'fill-opacity': 0.35
             }
         })
 
